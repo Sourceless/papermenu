@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "elm": "^0.19.1-5",
+    "watch": "^0.13.0"
+  },
+  "scripts": {
+    "start": "npx elm-live src/Main.elm --hot --dir=./public --start-page=index.html -- --output=public/app.js"
+  }
+}
